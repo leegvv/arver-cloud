@@ -3,27 +3,14 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>net.arver</groupId>
-        <artifactId>arver-cloud</artifactId>
+        <artifactId>arver-common</artifactId>
         <version>${revision}</version>
     </parent>
 
-    <artifactId>arver-common</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>arver-common-core</artifactId>
+    <packaging>jar</packaging>
 
-    <name>arver-common</name>
-    <description>公共模块</description>
-    <modules>
-        <module>arver-common-bom</module>
-        <module>arver-common-datasource</module>
-        <module>arver-common-log</module>
-        <module>arver-common-mybatis</module>
-        <module>arver-common-security</module>
-        <module>arver-common-feign</module>
-        <module>arver-common-swagger</module>
-        <module>arver-common-seata</module>
-        <module>arver-common-xss</module>
-        <module>arver-common-oss</module>
-    </modules>
+    <name>arver-common-core</name>
 
 
     <properties>
