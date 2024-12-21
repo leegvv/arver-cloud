@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>net.arver</groupId>
+    <artifactId>arver-cloud</artifactId>
+    <version>1.0.0</version>
+  </parent>
+  <artifactId>arver-common</artifactId>
+  <version>1.0.0</version>
+  <packaging>pom</packaging>
+  <name>arver-common</name>
+  <description>公共模块</description>
+  <modules>
+    <module>arver-common-bom</module>
+    <module>arver-common-datasource</module>
+    <module>arver-common-log</module>
+    <module>arver-common-mybatis</module>
+    <module>arver-common-security</module>
+    <module>arver-common-feign</module>
+    <module>arver-common-swagger</module>
+    <module>arver-common-seata</module>
+    <module>arver-common-xss</module>
+    <module>arver-common-oss</module>
+  </modules>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
